@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "Gemini Visual - GitHub Edition",
+  "version": "7.0",
+  "description": "Analisi visiva avanzata con Google Gemini. Supporta modelli personalizzati, screenshot e cronologia.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {},
+  "commands": {
+    "toggle-gemini-ui": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+G",
+        "mac": "Command+Shift+G"
+      },
+      "description": "Attiva Gemini Visual"
+    }
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["gemini-ui.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
