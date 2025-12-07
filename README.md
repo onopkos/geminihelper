@@ -78,5 +78,3 @@ Per chiedere all'AI cosa sta succedendo sullo schermo:
 * **API Key:** La chiave risiede esclusivamente nel **localStorage** del tuo browser.
 
 ***
-
-*Versione 7.0 - Gemini Visual GitHub Edition*
